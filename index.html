@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Audio Tool</title>
+
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='1em' x='-10' font-size='88'>🔊</text></svg>"
+    />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/bulma-prefers-dark" />
+
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module">
+      import * as Vue from 'https://unpkg.com/vue@3.0.2/dist/vue.esm-browser.js'
+      import { App } from './components/app.js'
+
+      Vue.createApp(App).mount('#app')
+    </script>
+  </body>
+</html>

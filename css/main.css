@@ -1,0 +1,7 @@
+canvas {
+  background-color: rgb(8, 22, 22);
+}
+
+#audio-view {
+  overflow-x: scroll;
+}
